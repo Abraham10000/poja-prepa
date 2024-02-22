@@ -4,9 +4,9 @@ import static com.fasterxml.jackson.databind.DeserializationFeature.FAIL_ON_UNKN
 import static com.fasterxml.jackson.databind.SerializationFeature.WRITE_DATES_AS_TIMESTAMPS;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.prepa.base.PojaGenerated;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import com.prepa.base.PojaGenerated;
 
 @PojaGenerated
 @Configuration
